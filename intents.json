@@ -1,0 +1,69 @@
+{"intents": [
+        {"tag":"greetngs", 
+        "patterns": ["hello", "hey", "hi", "whats up"],
+        "responses": ["Hello! I am Ficial, nice to meet you! Would you like to \nknow about autonomous vehicles?"] },
+        
+        {"tag":"Introducing", 
+        "patterns": ["who are you?", "what are you?"], 
+        "responses": ["I am Ficial, a virtual assistant bot here to help you!"] },
+        
+        {"tag":"Purpose", 
+        "patterns": ["what do you do?", "what is your purpose", "what can you do", "what can you tell me"], 
+        "responses": ["I help people by providing information regarding \nautonomous vehicles. Would you like to know anything about it? I am here to help you with that!"] },
+        
+        {"tag":"Topics", 
+        "patterns": ["yes", "yes i would like to know", "autonomous cars", "autonomous vehicles", "topics", "more"], 
+        "responses": ["Please choose one of the topics below reagrding\nautonomous cars and type in their topic number!!\n\n1)What is autonomous car?\n2)Will they be safer?\n3)What data do autonomous cars collect?\n4)Can they reduce accidents?\n5)Are there any chances of the car getting hacked?\n6) Will they make journeys quicker?\n7)How do autonomous cars see the road?\n8)Can you sleep while the car is driving itself?\n9)Will autonomous cars replace jobs?\n10)Are they worth the risk?"] },
+        
+        {"tag":"Autonomous car definition", 
+        "patterns": ["1", "what is autonomous car?"], 
+        "responses": ["1)what is autonomous car?\n\nAn autonomous car is a vehicle capable of sensing its \nenvironment and operating without human involvement. A \nhuman passenger is not required to take control of the \nvehicle at any time, nor is a human passenger required to be present in the vehicle at all.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+        
+        {"tag":"safety", 
+        "patterns": ["2", "will they be safer"], 
+        "responses": ["2)will they be safer?\n\nDue to the lack of data, it is difficult to evaluate whether they are better than humans at not crashing. However, they do \nhave the potential to be safer than human driven car but \nneeds additional engineering to prevent specific kinds of \ncognitive blind spots that can easily lead to accidents and \neven fatalities.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"Data", 
+        "patterns": ["3", "What data do autonomous cars collect?"], 
+        "responses": ["3)What data do autonomous cars collect?\n\nThe data collected by autonomous cars can be classified into 3 main categories:\n\n1.Owner and passenger information.\n2.Location data.\n3.Sensor data\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"accidents", 
+        "patterns": ["4","Can they reduce accidents?"], 
+        "responses": ["4)Can they reduce accidents?\n\nIt is estimated that the large-scale introduction of self-driving vehicles can significantly reduce the number of road accidents as they are immune to human errors such as exceeding \nspeed limits, drunk and drive, and getting distracted.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"hacking", 
+        "patterns": ["5","Are there any chances of the car getting hacked?"], 
+        "responses": ["5)Are there any chances of the car getting hacked?\n\nYes, autonomous cars can be hacked. In 2019, a tesla model was hacked within few mins. It is almost impossible to fully \nprotect autonomous cars but there are ways to make them \nmore secure.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"quick journey", 
+        "patterns": ["6"," Will they make journeys quicker?"], 
+        "responses": ["6)Will they make journeys quicker?\n\nAutonomous cars have great potential for making journey \ntimes quicker, but only if a critical mass of people are using \nthem. It is estimated that the journey time could be reduced by 11% than they are now if all cars are autonomous.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"Road visualisation", 
+        "patterns": ["7","How do autonomous cars see the road?"], 
+        "responses": ["7)How do autonomous cars see the road?\n\nAutonomous cars use radar sensors to observe the position of nearby vehicles and video cameras to read road signs, look \nfor pedestrians and track other vehicles and detect traffic \nlights.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"sleeping", 
+        "patterns": ["8","Can you sleep while the car is driving itself?"], 
+        "responses": ["8)Can you sleep while the car is driving itself?\n\nAs of now, no autonomous cars are considered to be safe for sleeping while the car is driving itself. They may still require \nhuman interaction to make split-second decisions or avoid \nspecific obstacles.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"replacing jobs", 
+        "patterns": ["9","Will autonomous cars replace jobs?"], 
+        "responses": ["9)Will autonomous cars replace jobs?\n\nYes, autonomous cars will replace jobs, especially in the \ndriving category. In US alone, it is estimated that as much as 25000 jobs a month will be replaced by self-driving vehicles.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"risk worth", 
+        "patterns": ["10","Are they worth the risk?"], 
+        "responses": ["10)Are they worth the risk?\n\nAccording to some studies, autonomous cars are considered \nto be worth the risk because almost 94% of accidents in the US roads are caused by human errors which can be \ndrastically reduced by self-driving cars.\n\nPlease type 'more' if you would like me to again show the \ntopics I can disuss! "] },
+
+        {"tag":"thanking", 
+        "patterns": ["thanks", "thank you"], 
+        "responses": ["You are welcome!!"] },
+
+        {"tag":"bye", 
+        "patterns": ["bye", "see you", "goodbye"], 
+        "responses": ["It was a pleasure talking with you!! See you another \ntime."] },
+
+        {"tag":"error", 
+        "patterns": [""], 
+        "responses": ["Sorry, I am not able to answer that!"] }
+    ]}
