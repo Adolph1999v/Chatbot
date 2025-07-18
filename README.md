@@ -80,6 +80,12 @@ python chatbot.py
 
 - Wait for the chatbot to popup (might take few seconds)
 
+## 🖼️ Chatbot Preview
+
+<img src="screenshot1.png" alt="Chatbot Screenshot" width="400"/>
+<img src="screenshot2.png" alt="Chatbot Screenshot" width="400"/>
+<img src="screenshot3.png" alt="Chatbot Screenshot" width="400"/>
+<img src="screenshot4.png" alt="Chatbot Screenshot" width="400"/>
 
 
 
